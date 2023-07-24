@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "SCMeTA"
-  text: "Single-Cell Metabolism Time-course Analysis"
-  tagline: "A python package for single-cell metabolism time-course analysis"
+  text: "单细胞代谢分析库"
+  tagline: "时间序列的单细胞代谢分析 Python 库"
   actions:
     - theme: brand
-      text: Quick start
+      text: 快速开始
       link: /usage/
     - theme: alt
-      text: Introduction
+      text: 介绍
       link: /home/
 
 features:

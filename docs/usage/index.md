@@ -8,6 +8,10 @@ SCMeTA is available on PyPI. You can install it with pip:
 pip install scmeta
 ```
 
+If you want to change the source code, you can clone the repository and install.
+
+Detials can be found in [Installation](../install/)
+
 ## Usage
 
 ```python
