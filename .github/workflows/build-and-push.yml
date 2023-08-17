@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  build-webui:
+    if: >
+      (github.event_name == 'pull_request') ||
+      (github.event_name == 'push' && github.ref_type == 'tag' && (contains(github.ref, 'alpha') || contains(github.ref, 'beta')))
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: ./pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: |
+          pnpm run docs:build
+
+      - name: Push to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/.vitepress/dist
+          publish_branch: gh-pages
+          force_orphan: true
+          enable_jekyll: true
