@@ -147,7 +147,7 @@ dist
 .vite_opt_cache
 .vscode
 dist
-cache
+cache/
 temp
 examples-temp
 node_modules

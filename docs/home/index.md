@@ -1,3 +1,3 @@
 # SCMeTA
 
-SCMeTA is 
+SCMeTA is a
