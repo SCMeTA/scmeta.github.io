@@ -7,7 +7,7 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: '/en/'
+      lang: 'en-US',
     },
     zh: {
       label: '简体中文',
@@ -37,7 +37,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/SCMeTA/SCMeTA' }
     ]
   },
 })
