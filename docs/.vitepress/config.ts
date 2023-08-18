@@ -35,6 +35,17 @@ export default defineConfig({
       {
         text: 'Installation',
         link: '/install/'
+      },
+      {
+        text: 'Data Container',
+        link: '/api/scdata'
+      },
+      {
+        text: 'API Reference',
+        items: [
+          { text: 'Load data', link: '/api/load_data' },
+          { text: 'SCData', link: '/api/scdata' },
+        ]
       }
     ],
 
