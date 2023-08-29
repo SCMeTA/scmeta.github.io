@@ -20,31 +20,45 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Introduction', link: '/' },
       { text: 'Quick Start', link: '/usage/' },
     ],
 
     sidebar: [
       {
         text: 'Introduction',
-        items: [
-          { text: 'Introduction', link: '/home/' },
-          { text: 'Quick Start', link: '/usage/' },
-        ]
+        link: '/home/',
+      },
+      {
+        text: 'Quick Start',
+        link: '/usage/'
       },
       {
         text: 'Installation',
-        link: '/install/'
+        items: [
+          { text: 'Install', link: '/install/' },
+          { text: 'Install from source', link: '/install/source' },
+          { text: 'Via Docker', link: '/install/docker' },
+        ]
       },
       {
-        text: 'Data Container',
-        link: '/api/scdata'
+        text: "Basic parameter",
+        items: [
+          { text: 'Data container', link: '/api/scdata' },
+          { text: 'Process module', link: '/usage/module' },
+          { text: "Visualization module", link: '/usage/visualization' },
+        ]
+      },
+      {
+        text: 'User Guide',
+        items: [
+          { text: 'How to use SCMeTA', link: '/usage/' },
+        ]
       },
       {
         text: 'API Reference',
         items: [
           { text: 'Load data', link: '/api/load_data' },
-          { text: 'SCData', link: '/api/scdata' },
         ]
       }
     ],
