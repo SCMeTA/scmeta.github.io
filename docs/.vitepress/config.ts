@@ -45,7 +45,7 @@ export default defineConfig({
         text: "Basic parameter",
         items: [
           { text: 'Data container', link: '/api/scdata' },
-          { text: 'Process module', link: '/usage/module' },
+          { text: 'Process module', link: '/usage/process' },
           { text: "Visualization module", link: '/usage/visualization' },
         ]
       },
@@ -53,6 +53,10 @@ export default defineConfig({
         text: 'User Guide',
         items: [
           { text: 'How to use SCMeTA', link: '/usage/' },
+          { text: 'Load data', link: '/usage/load_data' },
+          { text: 'Process data', link: '/usage/process' },
+          { text: 'Visualization', link: '/usage/visualization' },
+          { text: 'Save data', link: '/usage/save' },
         ]
       },
       {
