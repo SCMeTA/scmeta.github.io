@@ -20,8 +20,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Introduction', link: '/' },
-      { text: 'Quick Start', link: '/usage/' },
+      { text: 'Guide', link: '/' },
+      { text: 'Reference', link: '/usage/' },
     ],
 
     sidebar: [
@@ -37,7 +37,7 @@ export default defineConfig({
         text: 'Installation',
         items: [
           { text: 'Install', link: '/install/' },
-          { text: 'Install from source', link: '/install/source' },
+          { text: 'Install from source', link: '/install/src' },
           { text: 'Via Docker', link: '/install/docker' },
         ]
       },
