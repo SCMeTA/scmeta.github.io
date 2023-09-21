@@ -18,7 +18,3 @@ The data will be denoised based on the minimum number of occurrence and the mini
 ```python
 scmeta.denoise(max_ratio=0.1, file_name='HeLa')
 ```
-
-
-
-
