@@ -21,4 +21,4 @@ scmeta.filter_occ(count=10, resolution=0.1, file_name='HeLa')
 
 ## 结果输出
 
-该`filter_occ`方法将会生成一个新的`SCData`对象, 而生成的此`SCData`对象将会被存入`data`库中.
+该`filter_occ`方法将会生成一个新的`SCData`对象, 而生成的此`SCData`对象将会被存入`data`文件夹中.
