@@ -63,6 +63,9 @@ export default defineConfig({
         text: 'API Reference',
         items: [
           { text: 'Load data', link: '/api/load_data' },
+          { text: 'denoise', link: '/api/denoise' },
+          { text: 'merge cells', link: '/api/merge_cells' },
+          { text: 'filter occurrence', link: '/api/filter_occ' },
         ]
       }
     ],
