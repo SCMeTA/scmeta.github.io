@@ -1,22 +1,21 @@
 # Introducation
 
-SCMeTA is a opensource pyhon library for single-cell metabolism data analysis. Develop by [Zhang-lab][lab] in Department of Chemistry, Tsinghua University.
+SCMeTA is an opensource pyhon library for single-cell metabolism data analysis, developed by [Zhang-lab][lab] in Department of Chemistry, Tsinghua University.
 
-The details for the underlying mathematics can be found in our paper.
+Detailed mathematics and algorithms can be found in our paper.
 
-The source code is on GitHub at [scmeta/scmeta][github].
+Source code is now available via GitHub at [scmeta/scmeta][github].
 
 ## Installtion
-
-Conda install, via the excellent work of the conda-forge team:
+Installed via Conda, thanks to the excellent work of the conda-forge team:
 
 ```bash
 conda install -c conda-forge scmeta
 ```
 
-The conda-forge packages are available for linux, OS X, and Windows 64 bit.
+The conda-forge packages are accessible for linux, OS X, and Windows 64 bit.
 
-PyPI install, via pip:
+PyPI installed via pip:
 
 ```bash
 pip install scmeta
@@ -31,4 +30,5 @@ pip install scmeta
 
 [github]: https://github.com/scmeta/scmeta
 [docs]: https://www.sc-meta.com
+[publication]: https://www.xrzhanggroup.com
 [lab]: https://www.xrzhanggroup.com
