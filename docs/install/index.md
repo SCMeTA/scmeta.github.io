@@ -6,13 +6,8 @@ This page describes how to install SCMeTA.
 
 SCMeTA is available on PyPI. You can install it with pip or conda.
 
-
 ```bash
 pip install scmeta
-
-# or 
-
-conda install -c bioconda scmeta
 ```
 
 ## Use source code
@@ -31,6 +26,12 @@ cd SCMeTA
 pip install .
 ```
 
+## Install mono
+
+If you are using Linux or macOS, you should install [mono][mono] to load Thermo RAW data.
+
+See more details in [mono installation guide](https://www.mono-project.com/download/stable/#download-lin).
+
 ## About dependencies
 
 SCMeTA depends on the following packages:
@@ -41,9 +42,9 @@ SCMeTA depends on the following packages:
 - [matplotlib](https://matplotlib.org/)
 - [sci-kit learn](https://scikit-learn.org/stable/)
 - [umap-learn](https://umap-learn.readthedocs.io/en/latest/)
-- [combat]()
+- [combat](https://epigenelabs.github.io/pyComBat/)
 - [pyRawTools](https://github.com/EstrellaXD/pyRawTools)
 
-If you want to load Thermo RAW data on Linux or macOS, you should also install [mono](https://www.mono-project.com/).
 
-Please refer to the [mono installation guide](https://www.mono-project.com/download/stable/#download-lin) for more information.
+[mono]: https://www.mono-project.com/
+
