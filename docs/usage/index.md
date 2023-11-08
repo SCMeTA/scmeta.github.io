@@ -12,9 +12,13 @@ SCMeTA is available on PyPI. You can install it with pip:
 pip install scmeta
 ```
 
+:::tip
+More dependencies are required to load RAW data. See [Installation](../install/#data-load-dependencies) for more details.
+:::
+
 If you want to change the source code, you can clone the repository and install.
 
-Detials can be found in [Installation](../install/)
+Details can be found in [Installation](../install/)
 
 ## Usage
 
@@ -22,7 +26,7 @@ Detials can be found in [Installation](../install/)
 
 from SCMeTA import Process
 
-# Initialize a SCProcess object
+# Initialize a Process object
 
 sc = Process()
 
@@ -41,7 +45,7 @@ sc.process()
 
 # Save results
 
-sc.save('results')
+sc.save()
 
 ```
 

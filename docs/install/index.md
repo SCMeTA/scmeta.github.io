@@ -26,13 +26,15 @@ cd SCMeTA
 pip install .
 ```
 
-## Install .NET Core
+## Data Load Dependencies
+
+### Windows and Linux
 
 If you are using Windows or Linux, you should install [.NET Core][dotnet] to load RAW data.
 
 See more details in [.NET Core installation guide](https://docs.microsoft.com/en-us/dotnet/core/install/).
 
-## Install mono
+### macOS
 
 If you are using macOS, you should install [mono][mono] to load Thermo RAW data.
 
@@ -40,7 +42,7 @@ If you are using macOS, you should install [mono][mono] to load Thermo RAW data.
 brew install mono
 ```
 
-## About dependencies
+## About python dependencies
 
 SCMeTA depends on the following packages:
 

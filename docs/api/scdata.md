@@ -38,3 +38,12 @@ Parameters:
 data.cut(0, 100)
 ```
 
+### `xic(mz)`
+
+Parameters:
+
+- **mz**: `float` the mz to extract the XIC.
+
+```python
+data.xic(760.58)
+```
