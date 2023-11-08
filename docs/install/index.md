@@ -26,11 +26,19 @@ cd SCMeTA
 pip install .
 ```
 
+## Install .NET Core
+
+If you are using Windows or Linux, you should install [.NET Core][dotnet] to load RAW data.
+
+See more details in [.NET Core installation guide](https://docs.microsoft.com/en-us/dotnet/core/install/).
+
 ## Install mono
 
-If you are using Linux or macOS, you should install [mono][mono] to load Thermo RAW data.
+If you are using macOS, you should install [mono][mono] to load Thermo RAW data.
 
-See more details in [mono installation guide](https://www.mono-project.com/download/stable/#download-lin).
+```BASH
+brew install mono
+```
 
 ## About dependencies
 
@@ -45,6 +53,5 @@ SCMeTA depends on the following packages:
 - [combat](https://epigenelabs.github.io/pyComBat/)
 - [pyRawTools](https://github.com/EstrellaXD/pyRawTools)
 
-
 [mono]: https://www.mono-project.com/
-
+[dotnet]: https://dotnet.microsoft.com/
