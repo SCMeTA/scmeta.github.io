@@ -16,4 +16,6 @@ docker build -t scmeta:latest .
 
 After that, you can access the Jupyter Lab via `http://dockerhosr:8888`.
 
+You can find token in the terminal, and create a password for Jupyter Lab.
+
 [Jupyter]: https://jupyter.org/

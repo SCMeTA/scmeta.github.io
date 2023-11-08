@@ -1,10 +1,14 @@
 # Installation
 
+:::warning
+Data load module on Windows is still under development. We recommend using Linux or macOS to use SCMeTA.
+:::
+
 This page describes how to install SCMeTA.
 
 ## Use PyPI
 
-SCMeTA is available on PyPI. You can install it with pip or conda.
+SCMeTA is available on PyPI. You can install it with pip.
 
 ```bash
 pip install scmeta
@@ -24,23 +28,33 @@ Then, you can install it with pip.
 ```bash
 cd SCMeTA
 pip install .
+
+## or use poetry
+poetry install
+
 ```
 
-## Data Load Dependencies
+## Dependencies for loading data
 
-### Windows and Linux
+### Windows
 
-If you are using Windows or Linux, you should install [.NET Core][dotnet] to load RAW data.
+If you are using Windows, you should install [.NET Core][dotnet] to load RAW data.
 
 See more details in [.NET Core installation guide](https://docs.microsoft.com/en-us/dotnet/core/install/).
 
-### macOS
+### macOS / Linux
 
 If you are using macOS, you should install [mono][mono] to load Thermo RAW data.
 
-```BASH
+**macOS:**
+
+```zsh
 brew install mono
 ```
+
+**Linux:**
+
+More details can be found in [mono installation guide](https://www.mono-project.com/download/stable/#download-lin).
 
 ## About python dependencies
 
