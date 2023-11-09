@@ -38,3 +38,22 @@ Parameters:
 data.cut(0, 100)
 ```
 
+### `offset(offset)`
+
+Parameters:
+
+- **offset**: `float` the offset to be added to the data.
+
+```python
+data.offset(0.1)
+```
+
+### `xic(mz)`
+
+Parameters:
+
+- **mz**: `float` the mz to extract the XIC.
+
+```python
+data.xic(760.58)
+```

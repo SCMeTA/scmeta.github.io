@@ -1,5 +1,9 @@
 # Quick start
 
+:::warning
+Data load module on Windows is still under development. We recommend using Linux or macOS to use SCMeTA.
+:::
+
 ## Installation
 
 SCMeTA is available on PyPI. You can install it with pip:
@@ -8,39 +12,43 @@ SCMeTA is available on PyPI. You can install it with pip:
 pip install scmeta
 ```
 
+:::tip
+More dependencies are required to load RAW data. See [Installation](../install/#data-load-dependencies) for more details.
+:::
+
 If you want to change the source code, you can clone the repository and install.
 
-Detials can be found in [Installation](../install/)
+Details can be found in [Installation](../install/)
 
 ## Usage
 
 ```python
 
-from scmeta import SCProcess
+from SCMeTA import Process
 
-# Initialize a SCProcess object
+# Initialize a Process object
 
-sc_process = SCProcess()
+sc = Process()
 
 # Load data
 
-sc_process.load('data.RAW')
+sc.load('data.RAW')
 
 
-# Preprocess data
+# Pre-process data
 
-sc_process.pre_process()
+sc.pre_process()
 
-# Run SCMeTA
+# Process single-cell metabolism data.
 
-sc_process.process()
+sc.process()
 
 # Save results
 
-sc_process.save('results')
+sc.save()
 
 ```
 
 ## Documentation
 
-For more information, please refer to the [documentation](https://scmeta.readthedocs.io/en/latest/).
+For more api details, please refer to [Documentation](../usage/)

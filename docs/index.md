@@ -24,7 +24,7 @@ hero:
 
 ## Introduction
 
-SCMeTA is a python package for single-cell metabolism time-course analysis. It provides a set of tools for single-cell metabolism time-course analysis, including data loading, data processing, data visualization, and data analysis. SCMeTA is designed to be easy to use and easy to extend. It is built on top of the [Scanpy](https://scanpy.readthedocs.io/en/stable/) and [anndata](https://anndata.readthedocs.io/en/latest/).
+SCMeTA is a python package for single-cell metabolism time-course analysis. It provides a set of tools for single-cell metabolism time-course analysis, including data loading, data processing, data visualization, and data analysis. SCMeTA is designed to be easy to use and easy to extend. It is built on top of the [pandas](https://pandas.pydata.org/) and [scikit-learn](https://scikit-learn.org/stable/) packages.
 
 ---
 
