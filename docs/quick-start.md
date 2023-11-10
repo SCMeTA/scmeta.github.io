@@ -11,12 +11,12 @@ pip install scmeta
 :::warning
 .NET Framework 4.7 or MONO are required for loading RAW data.
 
-Please refer to [.NET dependencies](../install/dependencies-for-loading-data) for more details.
+Please refer to [.NET dependencies](install/#dependencies-for-loading-data) for more details.
 :::
 
 If you want to change the source code, you can clone the repository and install.
 
-Details can be found in [Install from source code](../install/src).
+Details can be found in [Install from source code](install/src).
 
 ## Usage
 
@@ -49,4 +49,4 @@ sc.save()
 
 ## Documentation
 
-For more api details, please refer to [Documentation](../usage/)
+For more api details, please refer to [Documentation](api/)
