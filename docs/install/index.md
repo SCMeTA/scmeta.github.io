@@ -1,7 +1,7 @@
 # Installation
 
 :::warning
-Data load module on Windows is still under development. We recommend using Linux or macOS to use SCMeTA.
+Data load module on Windows is still under development. We recommend you using Linux or macOS to use SCMeTA.
 :::
 
 This page describes how to install SCMeTA.
@@ -14,45 +14,32 @@ SCMeTA is available on PyPI. You can install it with pip.
 pip install scmeta
 ```
 
-## Use source code
-
-If you want to change the source code, you can clone the repository and install.
-
-```bash
-git clone https://github.com/SCMeTA/SCMeTA.git
-
-```
-
-Then, you can install it with pip.
-
-```bash
-cd SCMeTA
-pip install .
-
-## or use poetry
-poetry install
-
-```
-
 ## Dependencies for loading data
 
-### Windows
+Loading Thermo RAW data and Waters WIFF data requires [.NET Framework][dotnet] on Windows and [mono][mono] on Linux and macOS.
+These versions of .NET Framework and mono are supported:
 
-If you are using Windows, you should install [.NET Core][dotnet] to load RAW data.
+- .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+- On Linux and macOS, mono 6.12 or newer.
 
-See more details in [.NET Core installation guide](https://docs.microsoft.com/en-us/dotnet/core/install/).
+### Install .NET Framework on Windows
 
-### macOS / Linux
+See more details in [.NET Framework installation guide][.net-install]
 
-If you are using macOS, you should install [mono][mono] to load Thermo RAW data.
+### Install mono on macOS / Linux
 
-**macOS:**
+You should install [mono 6.12 or higher][mono] to load Thermo RAW data.
+See more details in [mono installation guide][mono-install].
+
+**For macOS:**
 
 ```zsh
 brew install mono
 ```
 
-**Linux:**
+**For Linux:**
 
 More details can be found in [mono installation guide](https://www.mono-project.com/download/stable/#download-lin).
 
@@ -70,4 +57,6 @@ SCMeTA depends on the following packages:
 - [pyRawTools](https://github.com/EstrellaXD/pyRawTools)
 
 [mono]: https://www.mono-project.com/
+[mono-install]: https://www.mono-project.com/download/stable/#download-lin
+[.net-install]: https://docs.microsoft.com/en-us/dotnet/framework/install/
 [dotnet]: https://dotnet.microsoft.com/

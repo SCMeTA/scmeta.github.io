@@ -31,14 +31,14 @@ export default defineConfig({
       },
       {
         text: 'Quick Start',
-        link: '/usage/'
+        link: '/quick-start'
       },
       {
         text: 'Installation',
         items: [
           { text: 'Install', link: '/install/' },
-          { text: 'Install from source', link: '/install/src' },
-          { text: 'Via Docker', link: '/install/docker' },
+          { text: 'Source code', link: '/install/src' },
+          // { text: 'Via Docker', link: '/install/docker' },
         ]
       },
       {
@@ -52,8 +52,8 @@ export default defineConfig({
       {
         text: 'User Guide',
         items: [
-          { text: 'How to use SCMeTA', link: '/usage/' },
-          { text: 'Load data', link: '/usage/load_data' },
+          { text: 'How to use SCMeTA', link: '/quick-start' },
+          { text: 'Load data', link: '/usage/load' },
           { text: 'Process data', link: '/usage/process' },
           { text: 'Visualization', link: '/usage/visualization' },
           { text: 'Save data', link: '/usage/save' },
@@ -64,9 +64,12 @@ export default defineConfig({
         items: [
           { text: 'API Reference', link: '/api/'},
           { text: 'Load data', link: '/api/load_data' },
-          { text: 'denoise', link: '/api/denoise' },
-          { text: 'merge cells', link: '/api/merge_cells' },
-          { text: 'filter occurrence', link: '/api/filter_occ' },
+          { text: 'Denoise', link: '/api/denoise' },
+          { text: 'Merge cells', link: '/api/merge_cells' },
+          { text: 'Filter occurrence', link: '/api/filter_occ' },
+          { text: 'Filter assem', link: '/api/filter_assem' },
+          { text: 'Filter mat', link: '/api/filter_mat' },
+          { text: 'Normalization', link: '/api/normalization'}
         ]
       }
     ],

@@ -1,9 +1,5 @@
 # Quick start
 
-:::warning
-Data load module on Windows is still under development. We recommend using Linux or macOS to use SCMeTA.
-:::
-
 ## Installation
 
 SCMeTA is available on PyPI. You can install it with pip:
@@ -12,13 +8,15 @@ SCMeTA is available on PyPI. You can install it with pip:
 pip install scmeta
 ```
 
-:::tip
-More dependencies are required to load RAW data. See [Installation](../install/#data-load-dependencies) for more details.
+:::warning
+.NET Framework 4.7 or MONO are required for loading RAW data.
+
+Please refer to [.NET dependencies](install/#dependencies-for-loading-data) for more details.
 :::
 
 If you want to change the source code, you can clone the repository and install.
 
-Details can be found in [Installation](../install/)
+Details can be found in [Install from source code](install/src).
 
 ## Usage
 
@@ -51,4 +49,4 @@ sc.save()
 
 ## Documentation
 
-For more api details, please refer to [Documentation](../usage/)
+For more api details, please refer to [Documentation](api/)
