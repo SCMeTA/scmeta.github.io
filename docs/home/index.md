@@ -1,6 +1,6 @@
 # Introduction
 
-SCMeTA is a opensource pyhon library for single-cell metabolism data analysis. Develop by [Zhang-lab][lab] in Department of Chemistry, Tsinghua University.
+SCMeTA is an opensource pyhon library for single-cell metabolism data analysis. Develop by [Zhang-lab][lab] in Department of Chemistry, Tsinghua University.
 
 The details for the underlying mathematics can be found in our paper.
 
