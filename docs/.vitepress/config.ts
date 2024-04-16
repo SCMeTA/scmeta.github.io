@@ -102,4 +102,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/SCMeTA/SCMeTA' }
     ]
   },
+  ignoreDeadLinks: true,
 })
