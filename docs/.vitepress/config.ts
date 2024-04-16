@@ -71,6 +71,30 @@ export default defineConfig({
           { text: 'Filter mat', link: '/api/filter_mat' },
           { text: 'Normalization', link: '/api/normalization'}
         ]
+      },
+      {
+        text: 'Visualization',
+        items: [
+          { text: 'Visualization', link: '/visualization/' },
+          { text: 'Heatmap', link: '/visualization/heatmap' },
+          { text: 'Discriminant analysis', link: '/visualization/da' },
+          { text: 'Volcano plot', link: '/visualization/volcano' },
+        ]
+      },
+      {
+        text: 'Interacting with other frameworks',
+        items: [
+          { text: 'R', link: '/interact/r' },
+          { text: 'MATLAB', link: '/interact/matlab' },
+        ]
+      },
+      {
+        text: 'About',
+        items: [
+          { text: 'About SCMeTA', link: '/about/' },
+          { text: 'Citation', link: '/about/citation' },
+          { text: 'License', link: '/about/license' },
+        ]
       }
     ],
 
