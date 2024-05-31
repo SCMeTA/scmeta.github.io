@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`save` function in `SCMeTA` is designed to save processed single-cell mass spectrometry data to files. It is part of the `SCMeTA` class. The function allows users to save processed data in various formats, including "cell_mat", "mat", "process", and "raw". Users can choose to save all files at once or specify a single file to save. The function also provides the flexibility to save files in a custom directory path or the default directory.
+`save` function is designed to save processed single-cell mass spectrometry data to files. It is part of the `SCMeTA` class. The function allows users to save processed data in various formats, including `cell_mat`, `mat`, `process`, and `raw`, file type details can be seen in [SCData](../api/scdata). Users can choose to save all files at once or specify a single file to save. The function also provides the flexibility to save files in a custom directory path or the default directory.
 
 ## Usage
 

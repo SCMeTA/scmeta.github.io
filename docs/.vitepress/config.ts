@@ -75,7 +75,7 @@ export default defineConfig({
       {
         text: 'Visualization',
         items: [
-          { text: 'Visualization', link: '/visualization/' },
+          { text: 'Visualization', link: '//usage/visualization' },
           { text: 'Heatmap', link: '/visualization/heatmap' },
           { text: 'Discriminant analysis', link: '/visualization/da' },
           { text: 'Volcano plot', link: '/visualization/volcano' },
